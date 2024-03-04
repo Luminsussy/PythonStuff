@@ -29,7 +29,7 @@ con = imaplib.IMAP4_SSL(imap_url)
 con.login(user, password)
 con.select('Inbox') #Checks for emails under this label
 
-allowed = ['3478633063']
+allowed = ['']
 
 #Meant to be run on linux server
 while True:
